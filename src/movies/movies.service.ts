@@ -1,5 +1,4 @@
-import { Get, Injectable, Delete, NotFoundException } from '@nestjs/common';
-import { exists } from 'node:fs';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { UpdateMovieDTO } from './DTO/update.movie.dto';
 import { Movie } from './entities/movies.entity';
 
